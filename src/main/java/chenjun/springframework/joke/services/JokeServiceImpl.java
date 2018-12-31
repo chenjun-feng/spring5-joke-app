@@ -10,8 +10,8 @@ public class JokeServiceImpl implements JokeService {
     private ChuckNorrisQuotes chuckNorrisQuotes;
 
     // == constructor ==
-    public JokeServiceImpl() {
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     // == public methods ==
